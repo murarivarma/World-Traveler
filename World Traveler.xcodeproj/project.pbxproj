@@ -14,6 +14,7 @@
 		1E6F559D1FA2479500CE214D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F559C1FA2479500CE214D /* Assets.xcassets */; };
 		1E6F55A01FA2479500CE214D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F559E1FA2479500CE214D /* LaunchScreen.storyboard */; };
 		1E6F55A91FA247B000CE214D /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F55A81FA247B000CE214D /* ListViewController.m */; };
+		1E7547461FA3451C00739368 /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547441FA3451C00739368 /* WorldTravelerModel.xcdatamodeld */; };
 		78322BB55ECD5A13D7C9472F /* libPods-World Traveler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		1E6F55A11FA2479500CE214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E6F55A71FA247B000CE214D /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		1E6F55A81FA247B000CE214D /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		1E7547451FA3451C00739368 /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
 		CA900A790CC58E4D61FBF87A /* Pods-World Traveler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Traveler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Traveler/Pods-World Traveler.debug.xcconfig"; sourceTree = "<group>"; };
 		DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Traveler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,13 +70,9 @@
 		1E6F558F1FA2479500CE214D /* World Traveler */ = {
 			isa = PBXGroup;
 			children = (
-				1E6F55931FA2479500CE214D /* AppDelegate.h */,
-				1E6F55941FA2479500CE214D /* AppDelegate.m */,
-				1E6F55A71FA247B000CE214D /* ListViewController.h */,
-				1E6F55A81FA247B000CE214D /* ListViewController.m */,
-				1E26EF611FA2487800B76DCE /* MapViewController.h */,
-				1E26EF621FA2487800B76DCE /* MapViewController.m */,
-				1E6F55991FA2479500CE214D /* Main.storyboard */,
+				1E7547421FA344D900739368 /* Initialization */,
+				1E7547411FA344CE00739368 /* Views */,
+				1E7547401FA344C600739368 /* Model */,
 				1E6F559C1FA2479500CE214D /* Assets.xcassets */,
 				1E6F559E1FA2479500CE214D /* LaunchScreen.storyboard */,
 				1E6F55A11FA2479500CE214D /* Info.plist */,
@@ -89,6 +87,43 @@
 				1E6F55911FA2479500CE214D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E7547401FA344C600739368 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E7547431FA3450500739368 /* Models */,
+				1E7547441FA3451C00739368 /* WorldTravelerModel.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E7547411FA344CE00739368 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F55A71FA247B000CE214D /* ListViewController.h */,
+				1E6F55A81FA247B000CE214D /* ListViewController.m */,
+				1E26EF611FA2487800B76DCE /* MapViewController.h */,
+				1E26EF621FA2487800B76DCE /* MapViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1E7547421FA344D900739368 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F55931FA2479500CE214D /* AppDelegate.h */,
+				1E6F55941FA2479500CE214D /* AppDelegate.m */,
+				1E6F55991FA2479500CE214D /* Main.storyboard */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		1E7547431FA3450500739368 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		6EE95ED77A9D33EBD2AF6F7C /* Frameworks */ = {
@@ -235,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6F55951FA2479500CE214D /* AppDelegate.m in Sources */,
+				1E7547461FA3451C00739368 /* WorldTravelerModel.xcdatamodeld in Sources */,
 				1E6F55A91FA247B000CE214D /* ListViewController.m in Sources */,
 				1E6F55921FA2479500CE214D /* main.m in Sources */,
 				1E26EF631FA2487800B76DCE /* MapViewController.m in Sources */,
@@ -399,6 +435,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E7547441FA3451C00739368 /* WorldTravelerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E7547451FA3451C00739368 /* WorldTravelerModel.xcdatamodel */,
+			);
+			currentVersion = 1E7547451FA3451C00739368 /* WorldTravelerModel.xcdatamodel */;
+			path = WorldTravelerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1E6F55851FA2479500CE214D /* Project object */;
 }
