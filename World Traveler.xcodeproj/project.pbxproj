@@ -15,6 +15,16 @@
 		1E6F55A01FA2479500CE214D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F559E1FA2479500CE214D /* LaunchScreen.storyboard */; };
 		1E6F55A91FA247B000CE214D /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F55A81FA247B000CE214D /* ListViewController.m */; };
 		1E7547461FA3451C00739368 /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547441FA3451C00739368 /* WorldTravelerModel.xcdatamodeld */; };
+		1E75475B1FA3658300739368 /* Menu+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547481FA3658300739368 /* Menu+CoreDataClass.m */; };
+		1E75475C1FA3658300739368 /* Menu+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E75474A1FA3658300739368 /* Menu+CoreDataProperties.m */; };
+		1E75475D1FA3658300739368 /* Venue+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E75474C1FA3658300739368 /* Venue+CoreDataClass.m */; };
+		1E75475E1FA3658300739368 /* Venue+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E75474E1FA3658300739368 /* Venue+CoreDataProperties.m */; };
+		1E75475F1FA3658300739368 /* Location+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547501FA3658300739368 /* Location+CoreDataClass.m */; };
+		1E7547601FA3658300739368 /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547521FA3658300739368 /* Location+CoreDataProperties.m */; };
+		1E7547611FA3658300739368 /* FSCategory+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547541FA3658300739368 /* FSCategory+CoreDataClass.m */; };
+		1E7547621FA3658300739368 /* FSCategory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547561FA3658300739368 /* FSCategory+CoreDataProperties.m */; };
+		1E7547631FA3658300739368 /* Contact+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7547581FA3658300739368 /* Contact+CoreDataClass.m */; };
+		1E7547641FA3658300739368 /* Contact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E75475A1FA3658300739368 /* Contact+CoreDataProperties.m */; };
 		78322BB55ECD5A13D7C9472F /* libPods-World Traveler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +43,26 @@
 		1E6F55A71FA247B000CE214D /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		1E6F55A81FA247B000CE214D /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		1E7547451FA3451C00739368 /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
+		1E7547471FA3658300739368 /* Menu+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Menu+CoreDataClass.h"; sourceTree = "<group>"; };
+		1E7547481FA3658300739368 /* Menu+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu+CoreDataClass.m"; sourceTree = "<group>"; };
+		1E7547491FA3658300739368 /* Menu+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Menu+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1E75474A1FA3658300739368 /* Menu+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1E75474B1FA3658300739368 /* Venue+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Venue+CoreDataClass.h"; sourceTree = "<group>"; };
+		1E75474C1FA3658300739368 /* Venue+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Venue+CoreDataClass.m"; sourceTree = "<group>"; };
+		1E75474D1FA3658300739368 /* Venue+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Venue+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1E75474E1FA3658300739368 /* Venue+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Venue+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1E75474F1FA3658300739368 /* Location+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataClass.h"; sourceTree = "<group>"; };
+		1E7547501FA3658300739368 /* Location+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataClass.m"; sourceTree = "<group>"; };
+		1E7547511FA3658300739368 /* Location+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1E7547521FA3658300739368 /* Location+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1E7547531FA3658300739368 /* FSCategory+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSCategory+CoreDataClass.h"; sourceTree = "<group>"; };
+		1E7547541FA3658300739368 /* FSCategory+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCategory+CoreDataClass.m"; sourceTree = "<group>"; };
+		1E7547551FA3658300739368 /* FSCategory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSCategory+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1E7547561FA3658300739368 /* FSCategory+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCategory+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1E7547571FA3658300739368 /* Contact+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataClass.h"; sourceTree = "<group>"; };
+		1E7547581FA3658300739368 /* Contact+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataClass.m"; sourceTree = "<group>"; };
+		1E7547591FA3658300739368 /* Contact+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1E75475A1FA3658300739368 /* Contact+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataProperties.m"; sourceTree = "<group>"; };
 		CA900A790CC58E4D61FBF87A /* Pods-World Traveler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Traveler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Traveler/Pods-World Traveler.debug.xcconfig"; sourceTree = "<group>"; };
 		DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Traveler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,8 +122,8 @@
 		1E7547401FA344C600739368 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1E7547431FA3450500739368 /* Models */,
 				1E7547441FA3451C00739368 /* WorldTravelerModel.xcdatamodeld */,
+				1E7547431FA3450500739368 /* Models */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -122,6 +152,26 @@
 		1E7547431FA3450500739368 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1E7547471FA3658300739368 /* Menu+CoreDataClass.h */,
+				1E7547481FA3658300739368 /* Menu+CoreDataClass.m */,
+				1E7547491FA3658300739368 /* Menu+CoreDataProperties.h */,
+				1E75474A1FA3658300739368 /* Menu+CoreDataProperties.m */,
+				1E75474B1FA3658300739368 /* Venue+CoreDataClass.h */,
+				1E75474C1FA3658300739368 /* Venue+CoreDataClass.m */,
+				1E75474D1FA3658300739368 /* Venue+CoreDataProperties.h */,
+				1E75474E1FA3658300739368 /* Venue+CoreDataProperties.m */,
+				1E75474F1FA3658300739368 /* Location+CoreDataClass.h */,
+				1E7547501FA3658300739368 /* Location+CoreDataClass.m */,
+				1E7547511FA3658300739368 /* Location+CoreDataProperties.h */,
+				1E7547521FA3658300739368 /* Location+CoreDataProperties.m */,
+				1E7547531FA3658300739368 /* FSCategory+CoreDataClass.h */,
+				1E7547541FA3658300739368 /* FSCategory+CoreDataClass.m */,
+				1E7547551FA3658300739368 /* FSCategory+CoreDataProperties.h */,
+				1E7547561FA3658300739368 /* FSCategory+CoreDataProperties.m */,
+				1E7547571FA3658300739368 /* Contact+CoreDataClass.h */,
+				1E7547581FA3658300739368 /* Contact+CoreDataClass.m */,
+				1E7547591FA3658300739368 /* Contact+CoreDataProperties.h */,
+				1E75475A1FA3658300739368 /* Contact+CoreDataProperties.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -269,11 +319,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7547611FA3658300739368 /* FSCategory+CoreDataClass.m in Sources */,
 				1E6F55951FA2479500CE214D /* AppDelegate.m in Sources */,
+				1E7547631FA3658300739368 /* Contact+CoreDataClass.m in Sources */,
+				1E75475E1FA3658300739368 /* Venue+CoreDataProperties.m in Sources */,
+				1E75475C1FA3658300739368 /* Menu+CoreDataProperties.m in Sources */,
+				1E7547621FA3658300739368 /* FSCategory+CoreDataProperties.m in Sources */,
 				1E7547461FA3451C00739368 /* WorldTravelerModel.xcdatamodeld in Sources */,
+				1E7547641FA3658300739368 /* Contact+CoreDataProperties.m in Sources */,
+				1E75475F1FA3658300739368 /* Location+CoreDataClass.m in Sources */,
+				1E7547601FA3658300739368 /* Location+CoreDataProperties.m in Sources */,
 				1E6F55A91FA247B000CE214D /* ListViewController.m in Sources */,
 				1E6F55921FA2479500CE214D /* main.m in Sources */,
+				1E75475B1FA3658300739368 /* Menu+CoreDataClass.m in Sources */,
 				1E26EF631FA2487800B76DCE /* MapViewController.m in Sources */,
+				1E75475D1FA3658300739368 /* Venue+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
