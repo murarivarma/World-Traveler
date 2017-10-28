@@ -26,6 +26,7 @@
 		1E778ABE1FA4981B00B6C9CB /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E778AB21FA4981B00B6C9CB /* Location+CoreDataProperties.m */; };
 		1E778ABF1FA4981B00B6C9CB /* Menu+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E778AB41FA4981B00B6C9CB /* Menu+CoreDataClass.m */; };
 		1E778AC01FA4981B00B6C9CB /* Menu+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E778AB61FA4981B00B6C9CB /* Menu+CoreDataProperties.m */; };
+		1E778AC41FA49E7700B6C9CB /* FourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E778AC31FA49E7700B6C9CB /* FourSquareSessionManager.m */; };
 		78322BB55ECD5A13D7C9472F /* libPods-World Traveler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		1E778AB41FA4981B00B6C9CB /* Menu+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu+CoreDataClass.m"; sourceTree = "<group>"; };
 		1E778AB51FA4981B00B6C9CB /* Menu+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Menu+CoreDataProperties.h"; sourceTree = "<group>"; };
 		1E778AB61FA4981B00B6C9CB /* Menu+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1E778AC21FA49E7700B6C9CB /* FourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareSessionManager.h; sourceTree = "<group>"; };
+		1E778AC31FA49E7700B6C9CB /* FourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareSessionManager.m; sourceTree = "<group>"; };
 		CA900A790CC58E4D61FBF87A /* Pods-World Traveler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Traveler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Traveler/Pods-World Traveler.debug.xcconfig"; sourceTree = "<group>"; };
 		DC50E1DB40B571B3CCFF6833 /* libPods-World Traveler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-World Traveler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				1E7547421FA344D900739368 /* Initialization */,
+				1E778AC11FA49E3900B6C9CB /* API */,
 				1E7547411FA344CE00739368 /* Views */,
 				1E7547401FA344C600739368 /* Model */,
 				1E6F559C1FA2479500CE214D /* Assets.xcassets */,
@@ -179,6 +183,15 @@
 				1E7547661FA3846A00739368 /* WTRecord.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		1E778AC11FA49E3900B6C9CB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1E778AC21FA49E7700B6C9CB /* FourSquareSessionManager.h */,
+				1E778AC31FA49E7700B6C9CB /* FourSquareSessionManager.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 		6EE95ED77A9D33EBD2AF6F7C /* Frameworks */ = {
@@ -327,6 +340,7 @@
 				1E6F55951FA2479500CE214D /* AppDelegate.m in Sources */,
 				1E7547461FA3451C00739368 /* WorldTravelerModel.xcdatamodeld in Sources */,
 				1E778AB71FA4981B00B6C9CB /* Venue+CoreDataClass.m in Sources */,
+				1E778AC41FA49E7700B6C9CB /* FourSquareSessionManager.m in Sources */,
 				1E778AB81FA4981B00B6C9CB /* Venue+CoreDataProperties.m in Sources */,
 				1E778AC01FA4981B00B6C9CB /* Menu+CoreDataProperties.m in Sources */,
 				1E778ABB1FA4981B00B6C9CB /* Contact+CoreDataClass.m in Sources */,
